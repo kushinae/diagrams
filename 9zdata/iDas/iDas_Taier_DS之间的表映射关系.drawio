@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T06:58:06.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="16.6.7" etag="WfnUOYR0ckmjrxbgEz1Z" type="github"><diagram id="3Z-sJ1tQZvgvWyGCWQk1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-09T07:17:12.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="RX3850ARDCP5J8uag1ok" version="16.6.7" type="github">
+  <diagram id="3Z-sJ1tQZvgvWyGCWQk1" name="第 1 页">
+    <mxGraphModel dx="1865" dy="1692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-70" width="390" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-18" value="iDas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ku-AFJ_3S5Cv2QX4zt5V-25" target="Ku-AFJ_3S5Cv2QX4zt5V-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-25" value="（project）项目空间&lt;br&gt;tenant_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-26" value="tenant（租户）&lt;br&gt;id" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ku-AFJ_3S5Cv2QX4zt5V-28" target="Ku-AFJ_3S5Cv2QX4zt5V-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-28" value="tenant(租户表)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-31" value="集群_租户中间表&lt;br&gt;console_cluster_tenant" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ku-AFJ_3S5Cv2QX4zt5V-33" target="Ku-AFJ_3S5Cv2QX4zt5V-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-33" value="集群表&lt;br&gt;console_cluster" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
