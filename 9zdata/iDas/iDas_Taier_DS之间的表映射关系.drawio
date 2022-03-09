@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T07:17:12.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="RX3850ARDCP5J8uag1ok" version="16.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-09T07:17:27.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="5pdo-7HnS_JILSfGIB20" version="16.6.7" type="github">
   <diagram id="3Z-sJ1tQZvgvWyGCWQk1" name="第 1 页">
     <mxGraphModel dx="1865" dy="1692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,6 +33,9 @@
         </mxCell>
         <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-33" value="集群表&lt;br&gt;console_cluster" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="85" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-36" value="taier" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
