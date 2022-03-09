@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T08:39:22.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="BlaXEzD7z1bSLGZzCYWZ" version="16.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-09T08:45:50.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ikLmhQxP1rlS_QqSDmak" version="16.6.7" type="github">
   <diagram id="3Z-sJ1tQZvgvWyGCWQk1" name="第 1 页">
     <mxGraphModel dx="1865" dy="1692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
           <mxGeometry x="580" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-42" value="集群_租户中间表&lt;br&gt;console_cluster_tenant" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="780" y="240" width="140" height="60" as="geometry" />
+          <mxGeometry x="660" y="410" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Ku-AFJ_3S5Cv2QX4zt5V-44" target="Ku-AFJ_3S5Cv2QX4zt5V-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -69,13 +69,13 @@
         <mxCell id="NQpV8oBEuTvhBJwhvVOD-6" value="用户此时创建集群&lt;br&gt;并不一定会被项目&lt;br&gt;空间绑定，初始绑&lt;br&gt;定给租户" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ku-AFJ_3S5Cv2QX4zt5V-44" target="Ku-AFJ_3S5Cv2QX4zt5V-39">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="850" y="-40" />
+              <mxPoint x="860" y="-40" />
               <mxPoint x="545" y="-40" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-44" value="集群表&lt;br&gt;console_cluster" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="790" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="790" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ku-AFJ_3S5Cv2QX4zt5V-55" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="520" y="10" width="50" height="200" as="geometry" />
@@ -91,6 +91,20 @@
         </mxCell>
         <mxCell id="NQpV8oBEuTvhBJwhvVOD-4" value="预期改版" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="590" y="-70" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NQpV8oBEuTvhBJwhvVOD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NQpV8oBEuTvhBJwhvVOD-5" target="Ku-AFJ_3S5Cv2QX4zt5V-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="545" y="260" />
+              <mxPoint x="750" y="260" />
+              <mxPoint x="750" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NQpV8oBEuTvhBJwhvVOD-10" value="通过后续的为租户绑定集群&lt;br&gt;来对集群和租户之间的关联关系建立" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NQpV8oBEuTvhBJwhvVOD-9">
+          <mxGeometry x="-0.1025" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NQpV8oBEuTvhBJwhvVOD-5" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;" vertex="1" parent="1">
           <mxGeometry x="440" y="180" width="210" height="60" as="geometry" />
