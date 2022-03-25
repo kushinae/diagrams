@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T09:03:35.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="Kk3bVGk02EW6jhMMc8Vy" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T09:05:34.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="xtm5O-vUTkBdXZgFwd2-" version="17.1.1" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1864" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1864" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,9 +68,6 @@
         </mxCell>
         <mxCell id="lZClP9aSU73zNONE4iG2-144" value="&lt;font style=&quot;font-size: 18px&quot;&gt;创建集群&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=12;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="83" y="120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lZClP9aSU73zNONE4iG2-145" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="740" y="460" width="1030" height="2760" as="geometry" />
         </mxCell>
         <mxCell id="lZClP9aSU73zNONE4iG2-146" value="&lt;font style=&quot;font-size: 18px&quot;&gt;配置组件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="865" y="116.5" width="120" height="60" as="geometry" />
